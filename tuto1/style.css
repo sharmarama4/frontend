@@ -1,0 +1,37 @@
+h2{
+    color:aqua;
+    background-color:blue;
+}
+h3{
+    color:blue;
+}
+.titel{
+   color :brown ;
+   background-color: red;
+}
+
+#paragraph1{
+    background-color: aquamarine;
+    color: whitesmoke;
+    
+}
+#paragraph2{
+    color: aquamarine;
+}
+.container{
+    width: 350px;
+}
+a{
+   text-decoration: none; 
+}
+a:hover{
+    font-size: 30px;
+    color: red;
+}
+
+a:visited{
+    color:blue;
+}
+.afbelding{
+    width: 80px;
+}
