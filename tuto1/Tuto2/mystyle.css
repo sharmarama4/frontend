@@ -1,0 +1,23 @@
+h1{
+    color: red;
+    background-color: blue;
+}
+
+    .titel{
+  color: black;
+  background-color: aquamarine;
+    }
+    
+ #paragraph1{
+    background-color: blueviolet;
+    color: beige;
+ }
+ #paragraph2{
+    color: black;
+    border-color: brown;
+    border-style:solid  ;
+    padding: 20px;
+ }
+ .container{
+   width:65px ;
+ }
