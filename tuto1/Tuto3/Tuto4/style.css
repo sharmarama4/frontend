@@ -16,16 +16,15 @@ table{
 
 }
 #tableLayout th,#tableLayout td:nth-child(1){
-    color:blue;
+    color:aqua !important;
 }
 #tableLayout td:not(:nth-child(1)){
-    color:red;
+    color:white;
 }
-#tableLayout tr:nth-child(2n)>td{
-    background-color:rgb(255, 0, 115) ;
+#tableLayout tr:nth-child(2n){
+
+    background-color: blue;
     
-
-
 }
 #tableLayout tr:nth-child(2n)>td{
     background-color: darkblue;
@@ -33,14 +32,22 @@ table{
 }
 #lijn{
     width: 800px;
+    text-align: center;
    
 }
 #lijn th,#lijn td,#lijn{
     border: none !important;
 }
 #lijn th,#lijn td{
-    border-bottom: 3px solid green !important;
+    border-bottom: 4px solid green !important;
     border-right: 2px solid blue !important;
+}
+#lijn th{
+    border-top: 4px solid green !important;
+    border-left: 4px solid green !important;
+    border-right: 4px solid green !important;
+
+
 }
 #lijn td{
     height: 50px;
@@ -49,4 +56,9 @@ table{
 }
 #lijn td:nth-child(1){
 text-align:end ;
+}
+#lijn tr:hover{
+    background-color: green ;
+    cursor: progress;
+    box-shadow: 0 10px 5px rgb(20,200,20)  ;
 }

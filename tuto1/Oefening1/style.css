@@ -1,0 +1,70 @@
+
+body{
+    font-family:'Times new Roman','Times New Roman', Times, serif ;
+    font-size:15px;
+    /*background-color: # 333;*/
+    background-image: url("https://www.thespruce.com/thmb/2fz1zlPNq7cj7QkLAtKdqYrKvs0=/3704x2778/smart/filters:no_upscale()/the-difference-between-trees-and-shrubs-3269804-hero-a4000090f0714f59a8ec6201ad250d90.jpg");
+ /*  background-repeat: space; */
+   background-size: cover;
+}
+
+
+
+h2{
+    color:aqua;
+    background-color:blue;
+}
+h3{
+    color:blue;
+}
+.titel{
+   color :brown ;
+   background-color: blue;
+}
+#paragraph1{
+    background-color: rebeccapurple;
+    color: whitesmoke;
+    
+}
+#paragraph2{
+    color: red;
+    border-color:white;
+    border-width: 10 px;
+    border-style: solid;
+    padding: 10px;
+}
+.container{
+    width: 350px;
+}
+
+a{
+   text-decoration: none; 
+}
+a:hover{
+    font-size: 30px;
+    color: royalblue;
+}
+
+a:visited{
+    color:purple;
+}
+.afbelding{
+    width: 150px;
+}
+button{
+    height: 50px;
+    width: 150px;
+    background-color:#6e3;
+     color : #9a3;
+     font-size: x-large;
+     border-radius: 50%;
+     border: none;
+
+
+}
+button :hover{
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    border: 3px dashed green;
+}

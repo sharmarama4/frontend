@@ -1,0 +1,161 @@
+
+#titel{
+    text-align: center;
+    margin-right: 450px;
+    font-size: 30px;
+    color:aquamarine;
+}
+
+footer{
+    background-color: rgb(200,200,200);
+    position: fixed;
+    width: 100%;
+    height: min-content;
+    bottom: 0;
+    
+}
+h1{
+    font-size: 20px;
+    color: purple;
+    margin-right: 700px;
+}
+
+h5{
+    font-size: 12px;
+    color: purple;
+    margin-right: 400px;
+}   
+#nav{
+    list-style-type: none;
+    font-size: 30px;
+    font-family: 'Kanit', sans-serif;
+    display: flex;
+    justify-content: flex-end;
+}
+#nav>li{
+    margin-right: 20px;
+    font-weight: 900;
+    padding: 20px 0;
+}
+#nav>li>a{
+    text-decoration: none;
+    color: aquamarine;
+}
+#nav>li>a:hover{
+    color: rgb(28, 220, 226);
+    text-shadow: 0 0 10px blue, 0 0 5px darkblue;
+}
+
+
+#nav2>li>a{
+    text-decoration: none;
+    color: purple;
+}
+#nav2>li>a:hover{
+    color: rgb(28, 220, 226);
+    text-shadow: 0 0 10px blue, 0 0 5px darkblue;
+}
+#nav2{
+    list-style-type: none;
+    text-align: center;
+    font-size: 10px;
+    font-family: 'Kanit', sans-serif;
+    display: flex;
+    justify-content: flex-end;
+}
+#nav2>li{
+    margin-right: 20px;
+    font-weight: 10;
+    padding: 5px 0;
+}
+
+#nav2>li>a:hover{
+    color: rgb(28, 220, 226);
+    text-shadow: 0 0 10px blue, 0 0 5px darkblue;
+}
+
+.sidebar{
+    border-style: solid;
+   padding: 1px;
+   margin: 0px;
+    width: 35%;
+   
+}
+
+
+.navbar{
+    background-color: rgb(200,200,200);
+
+}
+
+.sidebar{
+    border:3px dotted aqua;
+    width: 30%;
+}
+.sidebar>ol{
+    list-style-type: lower-greek;
+    font-size: 25px;
+}
+
+.container{
+    margin: 10px;
+    display: flex;
+}
+
+
+.sidebar>ol{
+    width:10px;
+    font-size: 10px;
+    text-align: center;
+    
+}
+
+.sidebar{
+   
+    background-color: brown;
+   
+   padding: 20px;
+  
+}
+
+
+
+table, th, td{
+    font-size: 12px;
+    border: 2px solid blue;
+    border-collapse: collapse;
+}
+
+
+
+td, th{
+    padding: 10px;
+}
+table{
+    margin: 40px; 
+}
+table{
+    margin: 30px; 
+    border-color: brown;
+    width: 100%;
+}
+#tabelLayout tr{
+    font-size: 8px;
+    background-color: rgb(120,120,120); 
+ 
+ }
+ #tabelLayout th,#tabelLayout td:nth-child(1){
+    color: aqua !important;
+}
+#tabelLayout td:not(:nth-child(1)){
+    color: red;
+   
+}
+#tabelLayout tr:nth-child(n){
+    background-color: blue;
+    
+    }
+
+
+
+

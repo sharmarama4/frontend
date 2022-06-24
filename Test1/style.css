@@ -1,0 +1,67 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    /* background-color: #333; */
+    background-image: url("https://th.bing.com/th/id/R.144d5e5912943789c9b328aa0122b8bf?rik=ZDdAN3UJj12NWQ&riu=http%3a%2f%2fwww.bewegende-plaatjes-site.nl%2fMapK%2fkerstachtergronden%2fkerstballen5-klein.jpg&ehk=IU7PpnMzd8q6nV5pv3RSpIQgHiPmVpvVmIBw52vjESc%3d&risl=&pid=ImgRaw&r=0");
+background-repeat: no-repeat;
+background-size: cover;
+}
+h2{
+    color:aqua;
+    background-color: blue;
+}
+h3{
+    color: blue;
+}
+.titel{
+    color: brown;
+    background-color: red;
+}
+#paragraaf1{
+    background-color:#42977a;
+    color: whitesmoke;
+    height: 200px;
+}
+#paragraaf2{
+    color: aquamarine;
+    border-color: white;
+    border-width: 10px;
+    border-style: solid;
+  padding: 10px;
+  margin: 50px;
+}
+.container{
+    width: 300px;
+}
+.container {
+    display: grid;
+    justify-content: space-evenly;
+  }
+a{
+    text-decoration: none;
+}
+a:hover{
+    font-size:30px;
+    color: red;
+}
+.afbeelding{
+    width: 50px;
+}
+button{
+    height: 50px;
+    width: 150px;
+    background-color: #6e3;
+    color: #9a3;
+    font-size: x-large;
+    border-radius: 50%;
+    border: none;
+}
+button:hover{
+    background-color: red;
+    color: white;
+cursor: pointer;
+border: 3px dashed green;
+}
+#tableLayout, .container{
+    display: inline-block;
+}

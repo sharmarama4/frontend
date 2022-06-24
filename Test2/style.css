@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+body{
+background-color: rgb(120,120,120);
+margin: 0;
+padding: 0;
+
+}
+
+#titel{
+    text-align: center;
+    color:blue;
+}
+footer{
+    background-color: aqua;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+footer>h5{
+    padding: 10px;
+    text-align: center;
+    font-size: 25px;
+    color: blue;
+}
+#nav{
+    list-style-type: none;
+    font-size: 30px;
+    font-family: 'Kanit', sans-serif;
+    display: flex;
+    justify-content: flex-end;
+}
+/* #nav>li::marker{
+    font-size: 40px;
+    color: aquamarine;
+    content: "🧨"
+} */
+#nav>li{
+    margin-right: 20px;
+    font-weight: 900;
+    padding: 20px 0;
+}
+#nav>li>a{
+    text-decoration: none;
+    color: aquamarine;
+}
+#nav>li>a:hover{
+    color: rgb(28, 220, 226);
+    text-shadow: 0 0 10px blue, 0 0 5px darkblue;
+}
+.navbar{
+    background-color: rgb(200,200,200);
+
+}
+.sidebar{
+    border:3px dotted aqua;
+    width: 30%;
+}
+.sidebar>ol{
+    list-style-type: lower-greek;
+    font-size: 25px;
+}
+.sidebar>ol>li::marker{
+    color: blue;
+}
+.container{
+    margin: 10px;
+    display: flex;
+}
+.blog{
+    margin: 0;
+    padding: 0 20px;
+    font-size: 20px;
+    border: 2px solid black;
+}
+.flexbox{
+    position: relative;
+  margin: 50px auto;
+width: 80%;
+border: 3px solid blue;
+}
+.flexbox div{
+    width: 100px;
+    height: 100px;
+}
+#box1{
+    background-color: red;
+transform: matrix(0.5, 4, 2, 1, 2,2 );
+}
+
+#box2{
+    background-color: blue;
+position: absolute;
+left: 20px;
+top: 0;
+transform: translateX(140px);
+}
+
+#box3{
+    background-color: black;
+    position: absolute;
+    top: 0;
+    left: 50px;
+    transform: skew(20deg);
+}
+#box4{
+    background-color: yellow;
+    position: absolute;
+    top: 0;
+    left: 60px;
+    /* z-index: 1; */
+    transform: scaleY(20%);
+}
+#box5{
+    background-color: green;
+    position: absolute;
+    top: 0;
+    left: 180px;
+transform: rotate(45deg);
+} 
