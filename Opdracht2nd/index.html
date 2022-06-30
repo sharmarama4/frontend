@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>Opdracht2nd</title>
+</head>
+
+<body>
+    <header>
+        <div class="navbar">
+            <div class="logo">
+                <img src="https://cdn-icons-png.flaticon.com/512/119/119596.png" alt="logo">
+                <h1><i>JAVAFRONTEND</i></h1>
+            </div>
+            <div class="nav">
+                <ul>
+                    <li>
+                        <a href="#">HOME</a>
+                    </li>
+
+                    <li>PROJECTS
+
+                        <ul id="projectList">
+                            <li><a href="../Opdracht1/">Layout</a></li>
+                            <li><a href="../Tuto11/">Blad-Steen-Schaar</a></li>
+                        </ul>
+                    </li>
+
+
+                    <li><a href="contact.html">CONTACT</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+
+    </header>
+
+    <!--<input type="text" id="naam" placeholder="Naam">
+        <input type="submit" value="Submit">-->
+    <!-- <form action="#" method="get" onsubmit="event.preventDefault()">
+        <input type="text" name="naam" id="naam" aria-placeholder="geef je naam">
+        <input type="button" value="submit"
+            onclick="document.getElementById('welcome').innerHTML='welkom'+document.getElementById('naam').value">
+
+
+        <h2 id="welcome">welcome !</h2>
+    </form> -->
+    <div class="submit">
+
+        <form id="welcomeMsg" action="#" method="get" onsubmit="event.preventDefault()">
+
+       
+
+            <input type="text" name="name" id="name" placeholder="Name">
+
+            <input type="submit" value="Submit" onclick="search()">
+
+
+
+        </form>
+
+        <h2 id="welcome">Welcome Stranger</h2>
+    <main>
+        <div class="sidebar">
+            <ul id="itemLijst">
+
+                <li onclick="toonItem(this)" ondblclick="closeitem(this)">
+                    <h1>First blog item</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod nobis error inventore sunt ipsum
+                        accusantium exercitationem adipisci. Quasi, consectetur! Odit quis quibusdam, obcaecati itaque
+                        voluptatibus porro consequuntur corrupti. Error, quia.</p>
+                </li>
+                <li onclick="toonItem(this)" ondblclick="closeitem(this)">
+                    <h1>Second blog item</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus quibusdam enim nisi ad blanditiis
+                        harum esse voluptatem. Cum quasi deserunt libero natus, earum delectus impedit amet deleniti at
+                        sequi placeat?</p>
+                </li>
+                <li onclick="toonItem(this)" ondblclick="closeitem(this)">
+                    <h1>Third blog item</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos aperiam ducimus alias earum
+                        quae odit velit ut nesciunt saepe aut illo amet quod rerum officia asperiores laudantium,
+                        accusamus unde distinctio.</p>
+                </li>
+                <li onclick="toonItem(this)" ondblclick="closeitem(this)">
+                    <h1>Fourth blog item</h1>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dignissimos nesciunt ratione atque
+                        facilis iure laborum vel officia asperiores! Voluptate perferendis eos minus. Mollitia
+                        laudantium blanditiis fuga itaque voluptatibus tempore repellendus.</p>
+                </li>
+                <li onclick="toonItem(this)" ondblclick="closeitem(this)">
+                    <h1>Five blog item</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod optio illum, vitae culpa dolorum
+                        consectetur similique alias fugit velit, corporis facilis earum, debitis omnis tempore cum eum.
+                        Nobis, perferendis. Delectus.</p>
+                </li>
+            </ul>
+
+        </div>
+        <div class="content">
+            <img src="https://www.ticati.com/img/hotel/1486625s.jpg" alt="beach">
+        </div>
+
+    </main>
+
+
+    <footer>
+
+        <h5>&copy; Rama 2022</h5>
+        <ul>
+
+            <li><a href="contact.html">Contact</a></li>
+
+            <li><a id="git" href="https://github.com/sharmarama4"> <i class="fa-brands fa-github"></i></a>
+            </li>
+        </ul>
+
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
